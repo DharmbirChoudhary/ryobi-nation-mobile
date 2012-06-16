@@ -307,7 +307,7 @@
     // TODO: Fill this in with data from the sites API
     NSString *topicsTitle = @"Topics";
     if ([Config currentConfig].site == ConfigIFixit)
-        topicsTitle = @"Devices";
+        topicsTitle = @"Categories";
     
     if (section == 0 - base)
         return self.title;
