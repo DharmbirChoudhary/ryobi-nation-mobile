@@ -30,8 +30,8 @@ static Config *currentConfig = nil;
 
     switch (site) {
         case ConfigIFixit:
-            self.host = @"ryobi.www.cominor.com";
-            self.baseURL = @"http://ryobi.www.cominor.com";
+            self.host = @"ryobi.sayala.cominor.com";
+            self.baseURL = @"http://ryobi.sayala.cominor.com";
             answersEnabled = YES;
             collectionsEnabled = YES;
             self.store = nil;
