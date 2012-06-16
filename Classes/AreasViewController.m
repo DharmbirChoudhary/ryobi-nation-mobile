@@ -69,6 +69,9 @@
         self.navigationItem.leftBarButtonItem = button;
         [button release];
     }
+    
+    
+    self.navigationController.navigationBar.tintColor = [UIColor blackColor];
 }
 
 - (void)showLoading {

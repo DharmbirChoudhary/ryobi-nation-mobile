@@ -77,6 +77,9 @@
         toggle.tintColor = [[Config currentConfig].toolbarColor isEqual:[UIColor blackColor]] ? [UIColor darkGrayColor] : [Config currentConfig].toolbarColor;
     }
     
+    toggle.tintColor = [UIColor grayColor];
+    toolbar.tintColor = [UIColor blackColor];
+    
     UIBarButtonItem *spacer = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace
                                                                             target:nil
                                                                             action:nil];
