@@ -1,8 +1,9 @@
 build
-iFixit.xcodeproj/dmpatierno.mode1v3
-iFixit.xcodeproj/dmpatierno.pbxuser
-iFixit.xcodeproj/project.xcworkspace
-iFixit.xcodeproj/xcuserdata
+
+*.mode1v3
+*.pbxuser
+*.xcworkspace
+xcuserdata
 .svn
-.gitignore
 *.bak
+*.DS_Store
