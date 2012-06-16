@@ -30,11 +30,11 @@ static Config *currentConfig = nil;
 
     switch (site) {
         case ConfigIFixit:
-            self.host = @"www.ifixit.com";
-            self.baseURL = @"http://www.ifixit.com/Guide";
+            self.host = @"ryobi.www.cominor.com";
+            self.baseURL = @"http://ryobi.www.cominor.com";
             answersEnabled = YES;
             collectionsEnabled = YES;
-            self.store = @"http://www.ifixit.com/Parts-Store";
+            self.store = nil;
             break;
         case ConfigIFixitDev:
             self.host = @"www.cominor.com";
