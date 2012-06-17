@@ -47,6 +47,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationBar.tintColor = [Config currentConfig].toolbarColor;
+
     
     // Add the toolbar with bookmarks toggle.
     UIToolbar *toolbar = [[UIToolbar alloc] init];

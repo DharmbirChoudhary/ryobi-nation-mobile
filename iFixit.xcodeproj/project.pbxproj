@@ -15,13 +15,6 @@
 		2804200C108E984D000629CD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2804200A108E984D000629CD /* DetailViewController.m */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28AD73600D9D9599002E5188 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow-iPad.xib */; };
-		ABA55DED158DAFCB00B8DA72 /* LocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA55DEB158DAFCB00B8DA72 /* LocationsViewController.m */; };
-		ABA55DEE158DAFCB00B8DA72 /* LocationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA55DEC158DAFCB00B8DA72 /* LocationsViewController.xib */; };
-		ABA55DF1158DB13900B8DA72 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA55DF0158DB13900B8DA72 /* MapKit.framework */; };
-		ABA55DF3158DB19200B8DA72 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA55DF2158DB19200B8DA72 /* CoreLocation.framework */; };
-		ABA55DF6158DB8FA00B8DA72 /* MyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA55DF5158DB8FA00B8DA72 /* MyLocation.m */; };
-		ABA55DF8158DBD9800B8DA72 /* HDLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABA55DF7158DBD9800B8DA72 /* HDLocations.plist */; };
-		ABA55DFA158DC15600B8DA72 /* Icon_Home_Depot_60x60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABA55DF9158DC15600B8DA72 /* Icon_Home_Depot_60x60.jpg */; };
 		7A5D28AC158D58B000F16155 /* ShareStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5D28AB158D58B000F16155 /* ShareStoryViewController.m */; };
 		7A5D28AE158D590400F16155 /* ShareStoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A5D28AD158D590400F16155 /* ShareStoryView.xib */; };
 		7AE7D328158D683E0049E774 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE7D322158D683E0049E774 /* star.png */; };
@@ -29,6 +22,15 @@
 		7AE7D32A158D683E0049E774 /* star_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE7D324158D683E0049E774 /* star_highlighted.png */; };
 		7AE7D32B158D683E0049E774 /* star_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE7D325158D683E0049E774 /* star_highlighted@2x.png */; };
 		7AE7D32C158D683E0049E774 /* StarRatingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE7D327158D683E0049E774 /* StarRatingControl.m */; };
+		ABA55DED158DAFCB00B8DA72 /* LocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA55DEB158DAFCB00B8DA72 /* LocationsViewController.m */; };
+		ABA55DEE158DAFCB00B8DA72 /* LocationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA55DEC158DAFCB00B8DA72 /* LocationsViewController.xib */; };
+		ABA55DF1158DB13900B8DA72 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA55DF0158DB13900B8DA72 /* MapKit.framework */; };
+		ABA55DF3158DB19200B8DA72 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA55DF2158DB19200B8DA72 /* CoreLocation.framework */; };
+		ABA55DF6158DB8FA00B8DA72 /* MyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA55DF5158DB8FA00B8DA72 /* MyLocation.m */; };
+		ABA55DF8158DBD9800B8DA72 /* HDLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABA55DF7158DBD9800B8DA72 /* HDLocations.plist */; };
+		ABA55DFA158DC15600B8DA72 /* Icon_Home_Depot_60x60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABA55DF9158DC15600B8DA72 /* Icon_Home_Depot_60x60.jpg */; };
+		ABA55E06158E5B2900B8DA72 /* LocationsViewControllerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA55E04158E5B2800B8DA72 /* LocationsViewControllerInfo.m */; };
+		ABA55E07158E5B2900B8DA72 /* LocationsViewControllerInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA55E05158E5B2900B8DA72 /* LocationsViewControllerInfo.xib */; };
 		C10F2708120CE5140027A28D /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C10F26FF120CE5140027A28D /* NSObject+SBJSON.m */; };
 		C10F2709120CE5140027A28D /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C10F2701120CE5140027A28D /* NSString+SBJSON.m */; };
 		C10F270A120CE5140027A28D /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C10F2703120CE5140027A28D /* SBJsonBase.m */; };
@@ -255,6 +257,9 @@
 		ABA55DF5158DB8FA00B8DA72 /* MyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocation.m; sourceTree = "<group>"; };
 		ABA55DF7158DBD9800B8DA72 /* HDLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HDLocations.plist; sourceTree = "<group>"; };
 		ABA55DF9158DC15600B8DA72 /* Icon_Home_Depot_60x60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon_Home_Depot_60x60.jpg; sourceTree = "<group>"; };
+		ABA55E03158E5B2800B8DA72 /* LocationsViewControllerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationsViewControllerInfo.h; sourceTree = "<group>"; };
+		ABA55E04158E5B2800B8DA72 /* LocationsViewControllerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationsViewControllerInfo.m; sourceTree = "<group>"; };
+		ABA55E05158E5B2900B8DA72 /* LocationsViewControllerInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationsViewControllerInfo.xib; sourceTree = "<group>"; };
 		C10E3EB1120E369E008CE3AE /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		C10F26FD120CE5140027A28D /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		C10F26FE120CE5140027A28D /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
@@ -1085,6 +1090,9 @@
 				ABA55DEC158DAFCB00B8DA72 /* LocationsViewController.xib */,
 				ABA55DF4158DB8FA00B8DA72 /* MyLocation.h */,
 				ABA55DF5158DB8FA00B8DA72 /* MyLocation.m */,
+				ABA55E03158E5B2800B8DA72 /* LocationsViewControllerInfo.h */,
+				ABA55E04158E5B2800B8DA72 /* LocationsViewControllerInfo.m */,
+				ABA55E05158E5B2900B8DA72 /* LocationsViewControllerInfo.xib */,
 			);
 			name = Navigation;
 			sourceTree = "<group>";
@@ -1289,6 +1297,7 @@
 				7AE7D329158D683E0049E774 /* star@2x.png in Resources */,
 				7AE7D32A158D683E0049E774 /* star_highlighted.png in Resources */,
 				7AE7D32B158D683E0049E774 /* star_highlighted@2x.png in Resources */,
+				ABA55E07158E5B2900B8DA72 /* LocationsViewControllerInfo.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1367,6 +1376,7 @@
 				ABA55DF6158DB8FA00B8DA72 /* MyLocation.m in Sources */,
 				7A5D28AC158D58B000F16155 /* ShareStoryViewController.m in Sources */,
 				7AE7D32C158D683E0049E774 /* StarRatingControl.m in Sources */,
+				ABA55E06158E5B2900B8DA72 /* LocationsViewControllerInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1382,6 +1392,7 @@
 					armv7,
 				);
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Stefan Ayala (8Y4Z9JAKJ9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1398,6 +1409,7 @@
 					"\"$(SRCROOT)/GAnalytics\"",
 				);
 				PRODUCT_NAME = iFixit;
+				PROVISIONING_PROFILE = "9C346851-AD83-4968-8D74-B653E0D27495";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1412,6 +1424,7 @@
 					armv7,
 				);
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Stefan Ayala (8Y4Z9JAKJ9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: iFixit";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1426,9 +1439,10 @@
 					"\"$(SRCROOT)/GAnalytics\"",
 				);
 				PRODUCT_NAME = iFixit;
+				PROVISIONING_PROFILE = "9C346851-AD83-4968-8D74-B653E0D27495";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F238D36E-8CCC-43CD-9087-6BDFAF00F717";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				VALIDATE_PRODUCT = NO;
 			};
 			name = Release;
 		};
@@ -1437,15 +1451,17 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Stefan Ayala (8Y4Z9JAKJ9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Patierno (W7L35YGZ69)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_NAME = "";
+				PROVISIONING_PROFILE = "57971879-FCBF-4A8D-89BA-A7EF4E039F3B";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5DF6B989-29D2-477D-AEF8-1DA413BFA5BB";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -1457,13 +1473,15 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Stefan Ayala (8Y4Z9JAKJ9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kyle Wiens";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "57971879-FCBF-4A8D-89BA-A7EF4E039F3B";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "29994DB8-7EA9-4B01-BA6C-EE4F070DDD8A";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -1475,13 +1493,15 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Stefan Ayala (8Y4Z9JAKJ9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: iFixit";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CODE_SIGN_FLAGS = "";
+				PROVISIONING_PROFILE = "57971879-FCBF-4A8D-89BA-A7EF4E039F3B";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CFC3F736-175A-4795-A1DD-9011AA491EFE";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -1497,6 +1517,7 @@
 					armv7,
 				);
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Stefan Ayala (8Y4Z9JAKJ9)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: iFixit";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1513,6 +1534,7 @@
 					"\"$(SRCROOT)/GAnalytics\"",
 				);
 				PRODUCT_NAME = iFixit;
+				PROVISIONING_PROFILE = "9C346851-AD83-4968-8D74-B653E0D27495";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F238D36E-8CCC-43CD-9087-6BDFAF00F717";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1529,7 +1551,7 @@
 				1D6058950D05DD3E006BFB54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iFixit" */ = {
 			isa = XCConfigurationList;
@@ -1539,7 +1561,7 @@
 				C01FCF5008A954540054247B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

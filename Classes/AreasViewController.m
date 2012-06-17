@@ -31,7 +31,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {    
     if (!tree)
-        [self getAreas];
+        [self getAreas];    
 }
 
 - (void)viewDidLoad {
@@ -70,10 +70,6 @@
         self.navigationItem.leftBarButtonItem = button;
         [button release];
     }
-    
-    self.navigationItem.leftBarButtonItem.tintColor = [UIColor grayColor];
-
-
     
 }
 
@@ -135,11 +131,11 @@
         CGRect frame = self.navigationItem.titleView.frame;
         
         if (toInterfaceOrientation == UIInterfaceOrientationLandscapeLeft || toInterfaceOrientation == UIInterfaceOrientationLandscapeRight) {
-            frame.size.width = 75;
+            frame.size.width = 194;
             frame.size.height = 24;
         }
         else {
-            frame.size.width = 98;
+            frame.size.width = 244;
             frame.size.height = 34;
         }
         
@@ -269,6 +265,7 @@
         CGRect bounds = self.navigationController.view.bounds;
         bounds.origin.y = 0.0;
         self.navigationController.view.bounds = bounds;
+        
     }
 }
 
@@ -509,7 +506,6 @@
     // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
     // For example: self.myOutlet = nil;
 }
-
 
 - (void)dealloc {
     [searchBar release];

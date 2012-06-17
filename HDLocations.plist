@@ -10,13 +10,317 @@
 		<key>hours</key>
 		<string>7:00 am - 9:00 pm</string>
 		<key>lat</key>
-		<string>35.6485021</string>
+		<string>37.699331</string>
 		<key>lng</key>
-		<string>-120.6722669</string>
+		<string>-122.48385</string>
 		<key>name</key>
 		<string>The Home Depot</string>
 		<key>phone</key>
 		<string>(650) 755-0178</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>2 Colma Blvd</string>
+		<key>city</key>
+		<string>Colma</string>
+		<key>hours</key>
+		<string>7:00 am - 9:00 pm</string>
+		<key>lat</key>
+		<string>37.676773</string>
+		<key>lng</key>
+		<string>-122.468207</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(650) 755-9600</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>91 Colma Blvd</string>
+		<key>city</key>
+		<string>Colma</string>
+		<key>hours</key>
+		<string>7:00 am - 6:00 pm</string>
+		<key>lat</key>
+		<string>37.676773</string>
+		<key>lng</key>
+		<string>-122.465065</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(650) 757-9360</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>91 Colma Blvd</string>
+		<key>city</key>
+		<string>Colma</string>
+		<key>hours</key>
+		<string>7:00 am - 6:00 pm</string>
+		<key>lat</key>
+		<string>37.676773</string>
+		<key>lng</key>
+		<string>-122.465065</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(650) 757-9360</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>2001 Chess Dr</string>
+		<key>city</key>
+		<string>San Mateo</string>
+		<key>hours</key>
+		<string>7:00 am - 8:00 pm</string>
+		<key>lat</key>
+		<string>37.562682</string>
+		<key>lng</key>
+		<string>-122.281121</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(650) 525-9343</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>3838 Hollis Avenue</string>
+		<key>city</key>
+		<string>Emeryville</string>
+		<key>hours</key>
+		<string>7:00 am - 8:00 pm</string>
+		<key>lat</key>
+		<string>37.828624</string>
+		<key>lng</key>
+		<string>-122.283376</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(510) 601-9400</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>4000 Alameda Avenue</string>
+		<key>city</key>
+		<string>Oakland</string>
+		<key>hours</key>
+		<string>7:00 am - 8:00 pm</string>
+		<key>lat</key>
+		<string>37.768182</string>
+		<key>lng</key>
+		<string>-122.22537</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(510) 533-7379</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>1933 Davis Street</string>
+		<key>city</key>
+		<string>San Leandro</string>
+		<key>hours</key>
+		<string>7:00 am - 9:00 pm</string>
+		<key>lat</key>
+		<string>37.714755</string>
+		<key>lng</key>
+		<string>-122.178255</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(510) 636-9600</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>1125 Old County Road</string>
+		<key>city</key>
+		<string>San Carlos</string>
+		<key>hours</key>
+		<string>6:00 am - 10:00 pm</string>
+		<key>lat</key>
+		<string>37.501018</string>
+		<key>lng</key>
+		<string>-122.250038</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(650) 592-9200</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>111 Shoreine Pkwy</string>
+		<key>city</key>
+		<string>San Rafael</string>
+		<key>hours</key>
+		<string>6:00 am - 8:00 pm</string>
+		<key>lat</key>
+		<string>37.953013</string>
+		<key>lng</key>
+		<string>-122.492923</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(415) 458-8675</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>11939 San Pablo Ave</string>
+		<key>city</key>
+		<string>El Cerrito</string>
+		<key>hours</key>
+		<string>7:00 am - 8:00 pm</string>
+		<key>lat</key>
+		<string>37.929568</string>
+		<key>lng</key>
+		<string>-122.32175</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(510) 235-0800</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>21787 Hesperian Blvd</string>
+		<key>city</key>
+		<string>Hayward</string>
+		<key>hours</key>
+		<string>7:00 am - 9:00 pm</string>
+		<key>lat</key>
+		<string>37.663336</string>
+		<key>lng</key>
+		<string>-122.118491</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(510) 887-8544</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>30055 Industrial Pkwy</string>
+		<key>city</key>
+		<string>Union City</string>
+		<key>hours</key>
+		<string>7:00 am - 9:00 pm</string>
+		<key>lat</key>
+		<string>37.611821</string>
+		<key>lng</key>
+		<string>-122.066952</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(510) 489-9400</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>1625 Sycamore Avenue</string>
+		<key>city</key>
+		<string>Hercules</string>
+		<key>hours</key>
+		<string>7:00 am - 8:00 pm</string>
+		<key>lat</key>
+		<string>33.146983</string>
+		<key>lng</key>
+		<string>-117.237283</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(510) 245-9572</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>5401 Thornton Ave</string>
+		<key>city</key>
+		<string>Newark</string>
+		<key>hours</key>
+		<string>7:00 am - 7:00 pm</string>
+		<key>lat</key>
+		<string>37.544205</string>
+		<key>lng</key>
+		<string>-122.026651</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(510) 494-1205</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>2750 Crow Canyon Rd</string>
+		<key>city</key>
+		<string>San Ramon</string>
+		<key>hours</key>
+		<string>7:00 am - 8:00 pm</string>
+		<key>lat</key>
+		<string>37.775487</string>
+		<key>lng</key>
+		<string>-121.984051</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(925) 838-0194</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>1037 Arnold Drive</string>
+		<key>city</key>
+		<string>Martinez</string>
+		<key>hours</key>
+		<string>7:00 am - 8:00 pm</string>
+		<key>lat</key>
+		<string>37.995155</string>
+		<key>lng</key>
+		<string>-122.108431</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(925) 335-0223</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>2090 Meridian Park Blvd</string>
+		<key>city</key>
+		<string>Concord</string>
+		<key>hours</key>
+		<string>7:00 am - 8:00 pm</string>
+		<key>lat</key>
+		<string>37.975667</string>
+		<key>lng</key>
+		<string>-122.054186</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(925) 798-9600</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>6000 Johnson Drive</string>
+		<key>city</key>
+		<string>Pleasanton</string>
+		<key>hours</key>
+		<string>7:00 am - 9:00 pm</string>
+		<key>lat</key>
+		<string>37.699814</string>
+		<key>lng</key>
+		<string>-121.90777</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(925) 847-9200</string>
+	</dict>
+	<dict>
+		<key>address</key>
+		<string>6000 Johnson Drive</string>
+		<key>city</key>
+		<string>Pleasanton</string>
+		<key>hours</key>
+		<string>7:00 am - 9:00 pm</string>
+		<key>lat</key>
+		<string>37.699814</string>
+		<key>lng</key>
+		<string>-121.90777</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(925) 847-9200</string>
 	</dict>
 </array>
 </plist>
