@@ -65,6 +65,7 @@
     
     
     [self.tableView reloadData];
+
     //if ([aedLocationsSelected count] == 1)
     // [self addWebView];
 }
