@@ -234,7 +234,7 @@
     UIViewController *controller = [viewControllers objectAtIndex:page];
     if ((NSNull *)controller == [NSNull null] && page == pageControl.numberOfPages - 1) {
         // "I did it!" page
-        controller = [[DidItViewController alloc] initWithGuide:self.guide];
+        controller = [[DidItViewController alloc] initWithGuide:self.guide andNavigationController:self.navigationController];
         CGRect frame = scrollView.frame;
         frame.origin.x = frame.size.width * page;
         frame.origin.y = 0;

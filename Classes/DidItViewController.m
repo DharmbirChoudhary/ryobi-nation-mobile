@@ -7,15 +7,35 @@
 //
 
 #import "DidItViewController.h"
+#import "ShareStoryViewController.h"
 
 @implementation DidItViewController
 
 @synthesize guide=_guide;
+@synthesize shareButton;
+@synthesize nc;
 
-- (id)initWithGuide:(Guide *)guide {
+UIWebView* webView;
+
+- (IBAction)gotoSharer:(UIButton*)sender {
+    [webView setHidden:NO];
+}
+
+- (id)initWithGuide:(Guide *)guide andNavigationController:(UINavigationController*)nc {
     if ((self = [super initWithNibName:@"DidItView" bundle:nil])) {
         self.guide = guide;
+        self.nc = nc;
     }
+    
+    NSURL* url = [NSURL URLWithString:@"http://ryobi.cdcline.cominor.com/Story/1/My_Sweet_Garden_Bench"];
+    NSURLRequest* request = [NSURLRequest requestWithURL:url];
+    webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+    
+    [webView loadRequest:request];
+    
+    [self.view addSubview:webView];
+    
+    [webView setHidden:YES];
     
     return self;
 }

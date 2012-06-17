@@ -11,8 +11,12 @@
 
 @interface DidItViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UIButton* shareButton;
 @property (nonatomic, retain) Guide* guide;
+@property (nonatomic, retain) UINavigationController* nc;
 
-- (id)initWithGuide:(Guide*) guide;
+- (IBAction)gotoSharer:(UIButton*)sender;
+
+- (id)initWithGuide:(Guide*) guide andNavigationController:(UINavigationController*)nc;
 
 @end

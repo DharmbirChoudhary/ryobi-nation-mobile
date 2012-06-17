@@ -1,4 +1,4 @@
-    //
+//
 //  GuideStepViewController.m
 //  iFixit
 //
