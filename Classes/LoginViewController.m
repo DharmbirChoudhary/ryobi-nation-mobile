@@ -361,7 +361,7 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     if ([Config currentConfig].site == ConfigIFixit)
-        return @"iFixit Login";
+        return @"Ryobi Nation Login";
     else if ([Config currentConfig].site == ConfigMake)
         return @"Make: Projects Login";
     return @"Login";
