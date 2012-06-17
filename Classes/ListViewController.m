@@ -92,6 +92,7 @@
     
     [self.view addSubview:toolbar];
     [toolbar release];
+
 }
 
 - (void)toggleBookmarks:(UISegmentedControl *)toggle { 

@@ -41,18 +41,19 @@
         self.title = @"Categories";
         
         if ([Config currentConfig].site != ConfigIFixit && [Config currentConfig].site != ConfigIFixitDev) {
-            
         }
         else {
             UIImage *titleImage = [UIImage imageNamed:@"titleImage.png"];
             UIImageView *imageTitle = [[UIImageView alloc] initWithImage:titleImage];
             self.navigationItem.titleView = imageTitle;
+
             [imageTitle release];
         }
     }
     
+    
     // Color the searchbar.
-    //searchBar.tintColor = [Config currentConfig].toolbarColor;
+    searchBar.tintColor = [Config currentConfig].toolbarColor;
     
     // Make room for the toolbar
     [self willRotateToInterfaceOrientation:self.interfaceOrientation duration:0];
@@ -70,8 +71,10 @@
         [button release];
     }
     
+    self.navigationItem.leftBarButtonItem.tintColor = [UIColor grayColor];
+
+
     
-    self.navigationController.navigationBar.tintColor = [UIColor blackColor];
 }
 
 - (void)showLoading {

@@ -192,11 +192,15 @@
     UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone
                                                                                 target:self action:@selector(closeGuide)];
     thisItem.leftBarButtonItem = doneButton;
+    thisItem.leftBarButtonItem.tintColor = [UIColor lightGrayColor];
     [doneButton release];
     [bookmarker setNavItem:thisItem andGuideid:self.guide.guideid];
+    bookmarker.navItem.rightBarButtonItem.tintColor = [UIColor grayColor];
     
 	NSArray *navItems = [NSArray arrayWithObjects:thisItem, nil];
 	[navBar setItems:navItems animated:NO];
+    navBar.tintColor = [UIColor blackColor];
+    
 	[thisItem release];
    
     if (shouldLoadPage) {
