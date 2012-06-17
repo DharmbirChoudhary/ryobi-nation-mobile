@@ -10,15 +10,17 @@
 #import "iFixitAppDelegate.h"
 #import "BookmarksViewController.h"
 #import "Config.h"
+#import "LocationsViewController.h"
 
 @implementation ListViewController
 
-@synthesize allStack, bookmarksTVC;
+@synthesize allStack, bookmarksTVC, mapviewVC;
 
 - (id)initWithRootViewController:(UIViewController *)rvc {
     if ((self = [super initWithRootViewController:rvc])) {
         // Create the bookmarks view controller
         BookmarksViewController *bvc = [[BookmarksViewController alloc] initWithNibName:@"BookmarksView" bundle:nil];
+        
         self.bookmarksTVC = bvc;
         [bvc release];
     }
@@ -62,7 +64,7 @@
         toolbar.autoresizingMask = UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     }
     
-    NSArray *toggleItems = [NSArray arrayWithObjects:@"All", @"Favorites", nil];
+    NSArray *toggleItems = [NSArray arrayWithObjects:@"All", @"Favorites", @"Locations", nil];
     UISegmentedControl *toggle = [[UISegmentedControl alloc] initWithItems:toggleItems];
     toggle.selectedSegmentIndex = bookmarksTVC && self.topViewController == bookmarksTVC ? 1 : 0;
     toggle.segmentedControlStyle = UISegmentedControlStyleBar;
@@ -114,6 +116,10 @@
 
         // Show bookmarks.
         self.viewControllers = [NSArray arrayWithObject:bookmarksTVC];
+    }
+    else {
+        LocationsViewController *lvc = [[LocationsViewController alloc] initWithNibName:@"LocationsViewController" bundle:nil];
+        self.viewControllers = [NSArray arrayWithObject:lvc];
     }
     
 }

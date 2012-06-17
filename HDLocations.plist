@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>address</key>
+		<string>303 Lake Merced Boulevard</string>
+		<key>city</key>
+		<string>Daly City</string>
+		<key>hours</key>
+		<string>7:00 am - 9:00 pm</string>
+		<key>lat</key>
+		<string>35.6485021</string>
+		<key>lng</key>
+		<string>-120.6722669</string>
+		<key>name</key>
+		<string>The Home Depot</string>
+		<key>phone</key>
+		<string>(650) 755-0178</string>
+	</dict>
+</array>
+</plist>

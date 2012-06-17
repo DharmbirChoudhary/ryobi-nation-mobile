@@ -15,6 +15,13 @@
 		2804200C108E984D000629CD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2804200A108E984D000629CD /* DetailViewController.m */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28AD73600D9D9599002E5188 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow-iPad.xib */; };
+		ABA55DED158DAFCB00B8DA72 /* LocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA55DEB158DAFCB00B8DA72 /* LocationsViewController.m */; };
+		ABA55DEE158DAFCB00B8DA72 /* LocationsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABA55DEC158DAFCB00B8DA72 /* LocationsViewController.xib */; };
+		ABA55DF1158DB13900B8DA72 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA55DF0158DB13900B8DA72 /* MapKit.framework */; };
+		ABA55DF3158DB19200B8DA72 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA55DF2158DB19200B8DA72 /* CoreLocation.framework */; };
+		ABA55DF6158DB8FA00B8DA72 /* MyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA55DF5158DB8FA00B8DA72 /* MyLocation.m */; };
+		ABA55DF8158DBD9800B8DA72 /* HDLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABA55DF7158DBD9800B8DA72 /* HDLocations.plist */; };
+		ABA55DFA158DC15600B8DA72 /* Icon_Home_Depot_60x60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABA55DF9158DC15600B8DA72 /* Icon_Home_Depot_60x60.jpg */; };
 		C10F2708120CE5140027A28D /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C10F26FF120CE5140027A28D /* NSObject+SBJSON.m */; };
 		C10F2709120CE5140027A28D /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C10F2701120CE5140027A28D /* NSString+SBJSON.m */; };
 		C10F270A120CE5140027A28D /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C10F2703120CE5140027A28D /* SBJsonBase.m */; };
@@ -223,6 +230,15 @@
 		28AD735F0D9D9599002E5188 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MainWindow-iPad.xib"; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iFixit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iFixit-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		ABA55DEA158DAFCB00B8DA72 /* LocationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationsViewController.h; sourceTree = "<group>"; };
+		ABA55DEB158DAFCB00B8DA72 /* LocationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationsViewController.m; sourceTree = "<group>"; };
+		ABA55DEC158DAFCB00B8DA72 /* LocationsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationsViewController.xib; sourceTree = "<group>"; };
+		ABA55DF0158DB13900B8DA72 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ABA55DF2158DB19200B8DA72 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ABA55DF4158DB8FA00B8DA72 /* MyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocation.h; sourceTree = "<group>"; };
+		ABA55DF5158DB8FA00B8DA72 /* MyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocation.m; sourceTree = "<group>"; };
+		ABA55DF7158DBD9800B8DA72 /* HDLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HDLocations.plist; sourceTree = "<group>"; };
+		ABA55DF9158DC15600B8DA72 /* Icon_Home_Depot_60x60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Icon_Home_Depot_60x60.jpg; sourceTree = "<group>"; };
 		C10E3EB1120E369E008CE3AE /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		C10F26FD120CE5140027A28D /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		C10F26FE120CE5140027A28D /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
@@ -496,6 +512,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABA55DF3158DB19200B8DA72 /* CoreLocation.framework in Frameworks */,
+				ABA55DF1158DB13900B8DA72 /* MapKit.framework in Frameworks */,
 				DAC0C1A3146B3F6F00EF42DC /* QuartzCore.framework in Frameworks */,
 				DAAAC7481433E03B00CB90AF /* libsqlite3.dylib in Frameworks */,
 				DA8860E51427DE590030F52C /* MessageUI.framework in Frameworks */,
@@ -596,6 +614,7 @@
 			children = (
 				DACE446C1353CE3700F78360 /* css */,
 				28AD735F0D9D9599002E5188 /* MainWindow-iPad.xib */,
+				ABA55DF7158DBD9800B8DA72 /* HDLocations.plist */,
 				DA3E3E3A133C1A8E0070615F /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* iFixit-Info.plist */,
 			);
@@ -605,6 +624,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ABA55DF2158DB19200B8DA72 /* CoreLocation.framework */,
+				ABA55DF0158DB13900B8DA72 /* MapKit.framework */,
 				DAC0C1A2146B3F6F00EF42DC /* QuartzCore.framework */,
 				DA8860E41427DE590030F52C /* MessageUI.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
@@ -678,6 +699,7 @@
 				DA61C50F13380E4C000028C3 /* back@2x.png */,
 				DAC26871140842B300752982 /* backtosites.png */,
 				DAC26872140842B300752982 /* backtosites@2x.png */,
+				ABA55DF9158DC15600B8DA72 /* Icon_Home_Depot_60x60.jpg */,
 				DA61C51113380E4C000028C3 /* browse_manuals.png */,
 				DA61C51413380E4C000028C3 /* browse_projects.png */,
 				DAC0C1A4146B411A00EF42DC /* collectionsHeaderGradient.png */,
@@ -746,6 +768,7 @@
 			isa = PBXGroup;
 			children = (
 				C1C894F5121B447E0036FAFC /* TapDetectingImageView.h */,
+				DA3DE74A134CF57000AD5050 /* GuideBookmarker.h */,
 				C1C894F6121B447E0036FAFC /* TapDetectingImageView.m */,
 				C115FC2A12174FA1005D0B77 /* GuideImageViewController.h */,
 				C115FC2B12174FA1005D0B77 /* GuideImageViewController.m */,
@@ -768,7 +791,6 @@
 				C184D5361210D8CD00953C39 /* GuideIntroViewController.m */,
 				C1D9814D120E09BA00509D18 /* GuideStepViewController.h */,
 				C1D9814E120E09BA00509D18 /* GuideStepViewController.m */,
-				DA3DE74A134CF57000AD5050 /* GuideBookmarker.h */,
 				DA3DE74B134CF57000AD5050 /* GuideBookmarker.m */,
 				DA6A0D1A14218973003B8BAD /* UIImage+Coder.m */,
 			);
@@ -1025,6 +1047,11 @@
 				DAF3AF561422897900913238 /* iPhoneDeviceView.xib */,
 				DAF3AF601422AF4800913238 /* GuideCell.h */,
 				DAF3AF611422AF4800913238 /* GuideCell.m */,
+				ABA55DEA158DAFCB00B8DA72 /* LocationsViewController.h */,
+				ABA55DEB158DAFCB00B8DA72 /* LocationsViewController.m */,
+				ABA55DEC158DAFCB00B8DA72 /* LocationsViewController.xib */,
+				ABA55DF4158DB8FA00B8DA72 /* MyLocation.h */,
+				ABA55DF5158DB8FA00B8DA72 /* MyLocation.m */,
 			);
 			name = Navigation;
 			sourceTree = "<group>";
@@ -1221,6 +1248,9 @@
 				DAD2EBA1151671FD0053CC40 /* tabBarItemPricetag@2x.png in Resources */,
 				DAD2EBA2151671FD0053CC40 /* tabBarItemWrench@2x.png in Resources */,
 				DA4D2870151AC69700448914 /* icon144.png in Resources */,
+				ABA55DEE158DAFCB00B8DA72 /* LocationsViewController.xib in Resources */,
+				ABA55DF8158DBD9800B8DA72 /* HDLocations.plist in Resources */,
+				ABA55DFA158DC15600B8DA72 /* Icon_Home_Depot_60x60.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1295,6 +1325,8 @@
 				DACD8FD714DDD7B80020A06C /* OpenIDViewController.m in Sources */,
 				DA9B290714E88E650093273B /* SSOViewController.m in Sources */,
 				DA58CB3414EA17F400A2CBAB /* LoginBackgroundViewController.m in Sources */,
+				ABA55DED158DAFCB00B8DA72 /* LocationsViewController.m in Sources */,
+				ABA55DF6158DB8FA00B8DA72 /* MyLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

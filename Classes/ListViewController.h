@@ -11,5 +11,6 @@
 
 @property (nonatomic, retain) NSArray *allStack;
 @property (nonatomic, retain) UIViewController *bookmarksTVC;
+@property (nonatomic, retain) UIViewController *mapviewVC;
 
 @end
