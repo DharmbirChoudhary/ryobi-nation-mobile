@@ -22,6 +22,13 @@
 		ABA55DF6158DB8FA00B8DA72 /* MyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA55DF5158DB8FA00B8DA72 /* MyLocation.m */; };
 		ABA55DF8158DBD9800B8DA72 /* HDLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = ABA55DF7158DBD9800B8DA72 /* HDLocations.plist */; };
 		ABA55DFA158DC15600B8DA72 /* Icon_Home_Depot_60x60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ABA55DF9158DC15600B8DA72 /* Icon_Home_Depot_60x60.jpg */; };
+		7A5D28AC158D58B000F16155 /* ShareStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5D28AB158D58B000F16155 /* ShareStoryViewController.m */; };
+		7A5D28AE158D590400F16155 /* ShareStoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A5D28AD158D590400F16155 /* ShareStoryView.xib */; };
+		7AE7D328158D683E0049E774 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE7D322158D683E0049E774 /* star.png */; };
+		7AE7D329158D683E0049E774 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE7D323158D683E0049E774 /* star@2x.png */; };
+		7AE7D32A158D683E0049E774 /* star_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE7D324158D683E0049E774 /* star_highlighted.png */; };
+		7AE7D32B158D683E0049E774 /* star_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE7D325158D683E0049E774 /* star_highlighted@2x.png */; };
+		7AE7D32C158D683E0049E774 /* StarRatingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE7D327158D683E0049E774 /* StarRatingControl.m */; };
 		C10F2708120CE5140027A28D /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C10F26FF120CE5140027A28D /* NSObject+SBJSON.m */; };
 		C10F2709120CE5140027A28D /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C10F2701120CE5140027A28D /* NSString+SBJSON.m */; };
 		C10F270A120CE5140027A28D /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C10F2703120CE5140027A28D /* SBJsonBase.m */; };
@@ -229,6 +236,15 @@
 		28A0AAE50D9B0CCF005BE974 /* iFixit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iFixit_Prefix.pch; sourceTree = "<group>"; };
 		28AD735F0D9D9599002E5188 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MainWindow-iPad.xib"; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A5D28AA158D58B000F16155 /* ShareStoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareStoryViewController.h; sourceTree = "<group>"; };
+		7A5D28AB158D58B000F16155 /* ShareStoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareStoryViewController.m; sourceTree = "<group>"; };
+		7A5D28AD158D590400F16155 /* ShareStoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareStoryView.xib; sourceTree = "<group>"; };
+		7AE7D322158D683E0049E774 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		7AE7D323158D683E0049E774 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
+		7AE7D324158D683E0049E774 /* star_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_highlighted.png; sourceTree = "<group>"; };
+		7AE7D325158D683E0049E774 /* star_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star_highlighted@2x.png"; sourceTree = "<group>"; };
+		7AE7D326158D683E0049E774 /* StarRatingControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRatingControl.h; sourceTree = "<group>"; };
+		7AE7D327158D683E0049E774 /* StarRatingControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRatingControl.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* iFixit-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iFixit-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		ABA55DEA158DAFCB00B8DA72 /* LocationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationsViewController.h; sourceTree = "<group>"; };
 		ABA55DEB158DAFCB00B8DA72 /* LocationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationsViewController.m; sourceTree = "<group>"; };
@@ -560,6 +576,9 @@
 				DA38111B147AE2C000BBFB9C /* DetailGridViewControllerDelegate.h */,
 				1D3623240D0F684500981E51 /* iFixitAppDelegate.h */,
 				1D3623250D0F684500981E51 /* iFixitAppDelegate.m */,
+				7A5D28AA158D58B000F16155 /* ShareStoryViewController.h */,
+				7A5D28AB158D58B000F16155 /* ShareStoryViewController.m */,
+				7A5D28AD158D590400F16155 /* ShareStoryView.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -641,6 +660,19 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
+		};
+		7AE7D321158D683E0049E774 /* StarRating */ = {
+			isa = PBXGroup;
+			children = (
+				7AE7D322158D683E0049E774 /* star.png */,
+				7AE7D323158D683E0049E774 /* star@2x.png */,
+				7AE7D324158D683E0049E774 /* star_highlighted.png */,
+				7AE7D325158D683E0049E774 /* star_highlighted@2x.png */,
+				7AE7D326158D683E0049E774 /* StarRatingControl.h */,
+				7AE7D327158D683E0049E774 /* StarRatingControl.m */,
+			);
+			path = StarRating;
+			sourceTree = SOURCE_ROOT;
 		};
 		C10F26FC120CE5140027A28D /* JSON */ = {
 			isa = PBXGroup;
@@ -991,6 +1023,7 @@
 		DAC88AD51427E10B00D33C00 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				7AE7D321158D683E0049E774 /* StarRating */,
 				DAAAC7431433DF7600CB90AF /* GAnalytics */,
 				DA0877B7142D3E3200954482 /* UIColor+Hex */,
 				DA8860BD1427DD0C0030F52C /* ASIHTTPRequest */,
@@ -1251,6 +1284,11 @@
 				ABA55DEE158DAFCB00B8DA72 /* LocationsViewController.xib in Resources */,
 				ABA55DF8158DBD9800B8DA72 /* HDLocations.plist in Resources */,
 				ABA55DFA158DC15600B8DA72 /* Icon_Home_Depot_60x60.jpg in Resources */,
+				7A5D28AE158D590400F16155 /* ShareStoryView.xib in Resources */,
+				7AE7D328158D683E0049E774 /* star.png in Resources */,
+				7AE7D329158D683E0049E774 /* star@2x.png in Resources */,
+				7AE7D32A158D683E0049E774 /* star_highlighted.png in Resources */,
+				7AE7D32B158D683E0049E774 /* star_highlighted@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1327,6 +1365,8 @@
 				DA58CB3414EA17F400A2CBAB /* LoginBackgroundViewController.m in Sources */,
 				ABA55DED158DAFCB00B8DA72 /* LocationsViewController.m in Sources */,
 				ABA55DF6158DB8FA00B8DA72 /* MyLocation.m in Sources */,
+				7A5D28AC158D58B000F16155 /* ShareStoryViewController.m in Sources */,
+				7AE7D32C158D683E0049E774 /* StarRatingControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1351,7 +1391,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
 				INFOPLIST_FILE = "iFixit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TestFlight\"",
@@ -1379,7 +1419,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
 				INFOPLIST_FILE = "iFixit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TestFlight\"",
@@ -1466,7 +1506,7 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2/**";
 				INFOPLIST_FILE = "iFixit-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TestFlight\"",
