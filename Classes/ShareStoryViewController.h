@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "StarRatingControl.h"
+#import "Guide.h"
 
 @interface ShareStoryViewController : UIViewController <StarRatingDelegate>
+
+@property (nonatomic, retain) Guide* guide;
+
+-(id) initWithGuide:(Guide*) guide;
 
 @end

@@ -1,19 +1,19 @@
 //
-//  ShareStoryViewController.m
+//  DidItViewController.m
 //  iFixit
 //
-//  Created by Adam Hintz on 6/16/12.
+//  Created by Adam Hintz on 6/17/12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "ShareStoryViewController.h"
+#import "DidItViewController.h"
 
-@implementation ShareStoryViewController
+@implementation DidItViewController
 
 @synthesize guide=_guide;
 
 - (id)initWithGuide:(Guide *)guide {
-    if ((self = [super initWithNibName:@"ShareStoryView" bundle:nil])) {
+    if ((self = [super initWithNibName:@"DidItView" bundle:nil])) {
         self.guide = guide;
     }
     
@@ -65,14 +65,6 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-
-- (void)starRatingControl:(StarRatingControl *)control didUpdateRating:(NSUInteger)rating {
-	// Call back to indicate the control is currently being updated
-}
-
-- (void)starRatingControl:(StarRatingControl *)control willUpdateRating:(NSUInteger)rating {
-	
 }
 
 @end

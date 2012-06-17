@@ -55,7 +55,7 @@
 	NSArray *steps		= [guideData valueForKey:@"steps"];
 	for (NSDictionary *step in steps)
 		[guide.steps addObject:[GuideStep guideStepWithDictionary:step]];
-	
+	    
 	// Prereqs
 	
 	// Parts

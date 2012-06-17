@@ -108,7 +108,7 @@
 }
 
 - (void)adjustScrollViewContentSizeForInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-	NSInteger numPages = [self.guide.steps count] + 1;
+	NSInteger numPages = [self.guide.steps count] + 2; //+2?
     CGRect frame;
 
     // iPad
@@ -157,7 +157,7 @@
 	self.guide = guide;
 
 	// Steps plus one for intro
-	NSInteger numPages = [self.guide.steps count] + 1;
+	NSInteger numPages = [self.guide.steps count] + 2; //+2?
 	
 	// view controllers are created lazily
     // in the meantime, load the array with placeholders which will be replaced on demand
@@ -177,7 +177,7 @@
     scrollView.delegate = self;
 	
 	// Steps plus one for intro
-    pageControl.numberOfPages = numPages;
+    pageControl.numberOfPages = numPages; //+1?
     pageControl.currentPage = 0;
     
     // Hide page control on iPhone.
@@ -226,20 +226,29 @@
 }
 
 - (void)loadScrollViewWithPage:(int)page {
-
+    NSLog(@"Page = %d, numPages = %d", page, pageControl.numberOfPages);
     if (page < 0 || page >= pageControl.numberOfPages)
        return;
-	
-	NSInteger stepNumber = page - 1;
-	
+    
     // replace the placeholder if necessary
     UIViewController *controller = [viewControllers objectAtIndex:page];
+    if ((NSNull *)controller == [NSNull null] && page == pageControl.numberOfPages - 1) {
+        // "I did it!" page
+        controller = [[DidItViewController alloc] initWithGuide:self.guide];
+        CGRect frame = scrollView.frame;
+        frame.origin.x = frame.size.width * page;
+        frame.origin.y = 0;
+        controller.view.frame = frame;
+        [scrollView addSubview:controller.view];
+        return;
+    }
+    
     if ((NSNull *)controller == [NSNull null]) {
-		if (stepNumber == -1) {
+		if (page == 0) {
 			controller = [[GuideIntroViewController alloc] initWithGuide:self.guide];
             ((GuideIntroViewController *)controller).delegate = self;
 		} else {
-			controller = [[GuideStepViewController alloc] initWithStep:[self.guide.steps objectAtIndex:stepNumber]];
+			controller = [[GuideStepViewController alloc] initWithStep:[self.guide.steps objectAtIndex:page - 1]];
             ((GuideStepViewController *)controller).delegate = self;
 		}
 
@@ -323,7 +332,7 @@
 - (void)preloadForCurrentPage:(NSNumber *)pageNumber {
 	int page = [pageNumber integerValue];
 	
-	[self loadScrollViewWithPage:page - 1];
+    [self loadScrollViewWithPage:page - 1];
     [self loadScrollViewWithPage:page];
     [self loadScrollViewWithPage:page + 1];
 }

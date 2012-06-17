@@ -9,6 +9,8 @@
 @class Guide;
 @class GuideBookmarker;
 
+#import "DidItViewController.h"
+
 @interface GuideViewController : UIViewController <UIScrollViewDelegate> {
     // To be used when scrolls originate from the UIPageControl
     BOOL pageControlUsed;	

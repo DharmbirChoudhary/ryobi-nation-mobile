@@ -17,6 +17,8 @@
 		28AD73600D9D9599002E5188 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow-iPad.xib */; };
 		7A5D28AC158D58B000F16155 /* ShareStoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5D28AB158D58B000F16155 /* ShareStoryViewController.m */; };
 		7A5D28AE158D590400F16155 /* ShareStoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A5D28AD158D590400F16155 /* ShareStoryView.xib */; };
+		7A720473158E4AB6002BBC9C /* DidItView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A720472158E4AB6002BBC9C /* DidItView.xib */; };
+		7A720476158E4CE1002BBC9C /* DidItViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A720475158E4CE0002BBC9C /* DidItViewController.m */; };
 		7AE7D328158D683E0049E774 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE7D322158D683E0049E774 /* star.png */; };
 		7AE7D329158D683E0049E774 /* star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE7D323158D683E0049E774 /* star@2x.png */; };
 		7AE7D32A158D683E0049E774 /* star_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE7D324158D683E0049E774 /* star_highlighted.png */; };
@@ -241,6 +243,9 @@
 		7A5D28AA158D58B000F16155 /* ShareStoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareStoryViewController.h; sourceTree = "<group>"; };
 		7A5D28AB158D58B000F16155 /* ShareStoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareStoryViewController.m; sourceTree = "<group>"; };
 		7A5D28AD158D590400F16155 /* ShareStoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareStoryView.xib; sourceTree = "<group>"; };
+		7A720472158E4AB6002BBC9C /* DidItView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DidItView.xib; sourceTree = "<group>"; };
+		7A720474158E4CE0002BBC9C /* DidItViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DidItViewController.h; sourceTree = "<group>"; };
+		7A720475158E4CE0002BBC9C /* DidItViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DidItViewController.m; sourceTree = "<group>"; };
 		7AE7D322158D683E0049E774 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 		7AE7D323158D683E0049E774 /* star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star@2x.png"; sourceTree = "<group>"; };
 		7AE7D324158D683E0049E774 /* star_highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_highlighted.png; sourceTree = "<group>"; };
@@ -581,9 +586,6 @@
 				DA38111B147AE2C000BBFB9C /* DetailGridViewControllerDelegate.h */,
 				1D3623240D0F684500981E51 /* iFixitAppDelegate.h */,
 				1D3623250D0F684500981E51 /* iFixitAppDelegate.m */,
-				7A5D28AA158D58B000F16155 /* ShareStoryViewController.h */,
-				7A5D28AB158D58B000F16155 /* ShareStoryViewController.m */,
-				7A5D28AD158D590400F16155 /* ShareStoryView.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -819,6 +821,8 @@
 				DABE9CF413C54D2200B778FE /* GuideView.xib */,
 				DABE9CF613C5519800B778FE /* GuideIntroView.xib */,
 				DABE9CF813C5535200B778FE /* GuideStepView.xib */,
+				7A720472158E4AB6002BBC9C /* DidItView.xib */,
+				7A5D28AD158D590400F16155 /* ShareStoryView.xib */,
 				C184D4C51210CDB900953C39 /* GuideView~ipad.xib */,
 				C184D5371210D8CD00953C39 /* GuideIntroView~ipad.xib */,
 				DAAAC7491433F43C00CB90AF /* GuideStepView~ipad.xib */,
@@ -830,6 +834,10 @@
 				C1D9814E120E09BA00509D18 /* GuideStepViewController.m */,
 				DA3DE74B134CF57000AD5050 /* GuideBookmarker.m */,
 				DA6A0D1A14218973003B8BAD /* UIImage+Coder.m */,
+				7A720474158E4CE0002BBC9C /* DidItViewController.h */,
+				7A720475158E4CE0002BBC9C /* DidItViewController.m */,
+				7A5D28AA158D58B000F16155 /* ShareStoryViewController.h */,
+				7A5D28AB158D58B000F16155 /* ShareStoryViewController.m */,
 			);
 			name = "Guide View";
 			sourceTree = "<group>";
@@ -1298,6 +1306,7 @@
 				7AE7D32A158D683E0049E774 /* star_highlighted.png in Resources */,
 				7AE7D32B158D683E0049E774 /* star_highlighted@2x.png in Resources */,
 				ABA55E07158E5B2900B8DA72 /* LocationsViewControllerInfo.xib in Resources */,
+				7A720473158E4AB6002BBC9C /* DidItView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1377,6 +1386,7 @@
 				7A5D28AC158D58B000F16155 /* ShareStoryViewController.m in Sources */,
 				7AE7D32C158D683E0049E774 /* StarRatingControl.m in Sources */,
 				ABA55E06158E5B2900B8DA72 /* LocationsViewControllerInfo.m in Sources */,
+				7A720476158E4CE1002BBC9C /* DidItViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
