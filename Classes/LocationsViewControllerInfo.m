@@ -71,8 +71,8 @@
 }
 
 - (void)viewDidDisappear:(BOOL)animated {
-    if(!aedLocationsSelected)
-        [aedLocationsSelected removeAllObjects];
+    [aedLocationsSelected removeAllObjects];
+    [sectionHeaders removeAllObjects];
     [currentCity removeAllObjects];
 }
 

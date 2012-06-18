@@ -23,4 +23,6 @@
 
 @property BOOL updateInitialLoad;
 
+-(void)plotLocations;
+
 @end
