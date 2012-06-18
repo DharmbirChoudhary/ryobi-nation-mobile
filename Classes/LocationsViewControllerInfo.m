@@ -73,7 +73,6 @@
 - (void)viewDidDisappear:(BOOL)animated {
     if(!aedLocationsSelected)
         [aedLocationsSelected removeAllObjects];
-    [sectionHeaders removeAllObjects];
     [currentCity removeAllObjects];
 }
 

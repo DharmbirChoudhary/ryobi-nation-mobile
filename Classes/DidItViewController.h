@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 #import "Guide.h"
 
+@class GuideCatchingWebView;
+
 @interface DidItViewController : UIViewController
 
 @property (nonatomic, retain) IBOutlet UIButton* shareButton;
 @property (nonatomic, retain) Guide* guide;
-@property (nonatomic, retain) UINavigationController* nc;
 
 - (IBAction)gotoSharer:(UIButton*)sender;
 

@@ -84,8 +84,11 @@
                         initWithContentsOfFile:plistPath];
     
     NSDictionary *myDictionary;
+
     
     self.locationsArray = myArray;
+    
+    [myArray release];
     
     for (id<MKAnnotation> annotation in _mapView.annotations)
         [_mapView removeAnnotation:annotation];
@@ -109,6 +112,8 @@
 
         [_mapView addAnnotation:annotation];
     }
+    
+    [myDictionary release];
 }
 
 - (void)mapView:(MKMapView *)mapView annotationView:(MKAnnotationView *)view calloutAccessoryControlTapped:(UIControl *)control{
@@ -169,8 +174,28 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    updateInitialLoad = TRUE;
+    aedLocationsSelected = [[NSMutableArray alloc] init];
+    self.title = @"Retail Locations";
+    
+    CLLocationCoordinate2D zoomLocation;
+    zoomLocation.latitude = 37.767662;
+    zoomLocation.longitude = -122.416127;
+    
+    MKCoordinateRegion viewRegion = MKCoordinateRegionMakeWithDistance(zoomLocation, 8*METERS_PER_MILE, 8*METERS_PER_MILE);
+    
+    MKCoordinateRegion adjustedRegion = [_mapView regionThatFits:viewRegion];
+    
+    [_mapView setRegion:adjustedRegion animated:YES];
     [aedLocationsSelected removeAllObjects];
     [self plotLocations];
     [super viewWillAppear:TRUE];
+}
+
+- (void)viewDidDisappear:(BOOL)animated
+{
+    
+    [self set_mapView:nil];
+    [self release];
 }
 @end
